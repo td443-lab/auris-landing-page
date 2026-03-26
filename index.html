@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aera | Hydration, Worn Lightly</title>
+    <meta
+      name="description"
+      content="Aera is a hydration wearable disguised as a sculptural earring. Join the waitlist for the minimal, chic future of everyday hydration."
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="background" aria-hidden="true">
+      <div class="background__layer background__layer--one"></div>
+      <div class="background__layer background__layer--two"></div>
+      <div class="background__layer background__layer--three"></div>
+    </div>
+
+    <main class="shell">
+      <section class="launch-panel">
+        <p class="eyebrow">Aera</p>
+        <h1>Hydration, worn lightly.</h1>
+        <p class="lede">
+          A sculptural earring that helps you stay ahead of dehydration through
+          subtle reminders designed to feel as effortless as the jewelry itself.
+        </p>
+
+        <form class="signup-form" id="signup-form" aria-label="Join the Aera waitlist">
+          <label class="sr-only" for="email">Email address</label>
+          <input
+            id="email"
+            name="email"
+            type="email"
+            inputmode="email"
+            autocomplete="email"
+            placeholder="Email Address"
+            required
+          />
+          <button type="submit">Sign Up</button>
+        </form>
+
+        <p class="supporting-copy">
+          Gentle hydration cues. Jewelry-first design. Early access for launch.
+        </p>
+      </section>
+    </main>
+
+    <aside class="product-visual" aria-label="Aera hydration earring display">
+      <div class="product-visual__halo product-visual__halo--warm"></div>
+      <div class="product-visual__halo product-visual__halo--cool"></div>
+      <img
+        src="assets/aera-earring-display.svg"
+        alt="Rendered hydration earring with a polished gold hoop and glass-like hydration capsule"
+      />
+    </aside>
+
+    <footer class="site-footer">
+      <a href="mailto:hello@aera.wear?subject=Aera%20waitlist">hello@aera.wear</a>
+    </footer>
+
+    <script>
+      const form = document.getElementById("signup-form");
+      const emailInput = document.getElementById("email");
+
+      form.addEventListener("submit", (event) => {
+        event.preventDefault();
+
+        const email = emailInput.value.trim();
+        if (!email) {
+          emailInput.focus();
+          return;
+        }
+
+        const subject = encodeURIComponent("Aera waitlist");
+        const body = encodeURIComponent(
+          `Hi Aera,\n\nPlease add this email to the waitlist:\n${email}`
+        );
+
+        window.location.href = `mailto:hello@aera.wear?subject=${subject}&body=${body}`;
+      });
+    </script>
+  </body>
+</html>

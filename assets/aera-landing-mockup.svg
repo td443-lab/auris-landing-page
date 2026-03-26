@@ -1,0 +1,113 @@
+<svg width="1600" height="1100" viewBox="0 0 1600 1100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1600" height="1100" fill="#F5F2EC"/>
+  <circle cx="260" cy="180" r="180" fill="#E8D3B8" fill-opacity="0.45"/>
+  <circle cx="1310" cy="170" r="210" fill="#D9E6EA" fill-opacity="0.7"/>
+  <circle cx="1240" cy="870" r="180" fill="#EAD9C1" fill-opacity="0.35"/>
+  <rect x="58" y="58" width="1484" height="984" rx="42" fill="url(#panel)" stroke="rgba(255,255,255,0.6)"/>
+  <g filter="url(#shadow)">
+    <rect x="120" y="116" width="1360" height="870" rx="34" fill="url(#glass)"/>
+  </g>
+
+  <text x="172" y="270" fill="#AF8553" font-family="Avenir Next, Helvetica Neue, Arial, sans-serif" font-size="18" letter-spacing="5.5">AERA</text>
+
+  <text x="168" y="400" fill="#181613" font-family="Baskerville, Times New Roman, serif" font-size="108" letter-spacing="-4">
+    <tspan x="168" dy="0">Hydration,</tspan>
+    <tspan x="168" dy="92">worn lightly.</tspan>
+  </text>
+
+  <text x="172" y="608" fill="#5F5A53" font-family="Avenir Next, Helvetica Neue, Arial, sans-serif" font-size="28">
+    <tspan x="172" dy="0">A sculptural earring that helps you stay ahead of</tspan>
+    <tspan x="172" dy="42">dehydration with subtle, effortless reminders built</tspan>
+    <tspan x="172" dy="42">for everyday wear.</tspan>
+  </text>
+
+  <rect x="168" y="694" width="548" height="84" rx="42" fill="rgba(255,255,255,0.82)" stroke="#D8D0C5"/>
+  <text x="206" y="747" fill="#8B857E" font-family="Avenir Next, Helvetica Neue, Arial, sans-serif" font-size="28">Email address</text>
+  <rect x="534" y="706" width="170" height="60" rx="30" fill="url(#button)"/>
+  <text x="571" y="744" fill="#F8F5EF" font-family="Avenir Next, Helvetica Neue, Arial, sans-serif" font-size="22">Join waitlist</text>
+
+  <text x="171" y="828" fill="#5F5A53" font-family="Avenir Next, Helvetica Neue, Arial, sans-serif" font-size="24">Prefer email? hello@aera.wear</text>
+
+  <g>
+    <circle cx="1110" cy="316" r="110" fill="#E4CEB3" fill-opacity="0.45"/>
+    <circle cx="935" cy="796" r="88" fill="#D9E6EA" fill-opacity="0.8"/>
+    <g filter="url(#cardShadow)">
+      <rect x="860" y="180" width="480" height="640" rx="34" fill="url(#card)" stroke="rgba(255,255,255,0.7)"/>
+    </g>
+    <rect x="892" y="212" width="236" height="44" rx="22" fill="rgba(255,255,255,0.74)"/>
+    <text x="924" y="240" fill="#6B655D" font-family="Avenir Next, Helvetica Neue, Arial, sans-serif" font-size="14" letter-spacing="1.8">SMART JEWELRY FOR HYDRATION</text>
+
+    <g filter="url(#earringShadow)">
+      <path d="M1058 298C1133.66 298 1195 359.338 1195 435C1195 510.662 1133.66 572 1058 572C982.338 572 921 510.662 921 435C921 412.915 926.223 392.051 935.498 373.575" stroke="url(#gold)" stroke-width="26" stroke-linecap="round"/>
+      <rect x="960" y="555" width="196" height="236" rx="98" fill="url(#capsule)"/>
+      <path d="M1057.5 591C1088.5 629.333 1108.71 658.758 1118.14 679.275C1127.58 699.793 1131.5 718.458 1131.5 735.27C1131.5 775.717 1098.72 808.5 1058.27 808.5C1017.83 808.5 985.043 775.717 985.043 735.27C985.043 718.458 988.961 699.793 998.4 679.275C1007.84 658.758 1028.04 629.333 1059.04 591H1057.5Z" fill="url(#water)"/>
+      <path d="M1017 667C999.618 689.594 992.224 708.085 995.333 722.474C998.442 736.862 1007.94 745.195 1023.84 747.474" stroke="white" stroke-opacity="0.7" stroke-width="11" stroke-linecap="round"/>
+      <ellipse cx="1042" cy="658" rx="72" ry="48" fill="white" fill-opacity="0.35"/>
+    </g>
+
+    <rect x="894" y="844" width="108" height="42" rx="21" fill="rgba(255,255,255,0.62)" stroke="#D8D0C5"/>
+    <rect x="1012" y="844" width="162" height="42" rx="21" fill="rgba(255,255,255,0.62)" stroke="#D8D0C5"/>
+    <rect x="1184" y="844" width="124" height="42" rx="21" fill="rgba(255,255,255,0.62)" stroke="#D8D0C5"/>
+    <text x="922" y="871" fill="#5F5A53" font-family="Avenir Next, Helvetica Neue, Arial, sans-serif" font-size="18">Featherlight</text>
+    <text x="1041" y="871" fill="#5F5A53" font-family="Avenir Next, Helvetica Neue, Arial, sans-serif" font-size="18">Gentle reminders</text>
+    <text x="1217" y="871" fill="#5F5A53" font-family="Avenir Next, Helvetica Neue, Arial, sans-serif" font-size="18">Day-long wear</text>
+  </g>
+
+  <defs>
+    <filter id="shadow" x="90" y="92" width="1420" height="930" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+      <feOffset dy="22"/>
+      <feGaussianBlur stdDeviation="15"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0.26 0 0 0 0 0.21 0 0 0 0 0.15 0 0 0 0.09 0"/>
+      <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1" result="shape"/>
+    </filter>
+    <filter id="cardShadow" x="830" y="158" width="540" height="700" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+      <feOffset dy="24"/>
+      <feGaussianBlur stdDeviation="15"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0.25 0 0 0 0 0.19 0 0 0 0 0.11 0 0 0 0.12 0"/>
+      <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_2"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_2" result="shape"/>
+    </filter>
+    <filter id="earringShadow" x="881" y="269" width="354" height="579" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+      <feOffset dy="18"/>
+      <feGaussianBlur stdDeviation="12"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0.31 0 0 0 0 0.24 0 0 0 0 0.16 0 0 0 0.16 0"/>
+      <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_3"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_3" result="shape"/>
+    </filter>
+    <linearGradient id="panel" x1="130" y1="112" x2="1450" y2="1040" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF" stop-opacity="0.58"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0.22"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="230" y1="170" x2="1350" y2="930" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF" stop-opacity="0.74"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0.28"/>
+    </linearGradient>
+    <linearGradient id="button" x1="540" y1="712" x2="700" y2="766" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1D1A16"/>
+      <stop offset="1" stop-color="#40362C"/>
+    </linearGradient>
+    <linearGradient id="card" x1="914" y1="204" x2="1260" y2="790" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF" stop-opacity="0.82"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0.54"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="969" y1="312" x2="1195" y2="515" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#C9A06D"/>
+      <stop offset="1" stop-color="#8E653A"/>
+    </linearGradient>
+    <linearGradient id="capsule" x1="986" y1="563" x2="1128" y2="786" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFDF9"/>
+      <stop offset="1" stop-color="#F0ECE6"/>
+    </linearGradient>
+    <linearGradient id="water" x1="1005" y1="606" x2="1128" y2="803" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#DFF6FB"/>
+      <stop offset="1" stop-color="#AFCFD8"/>
+    </linearGradient>
+  </defs>
+</svg>
