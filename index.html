@@ -3,10 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Aera | Hydration, Worn Lightly</title>
+    <title>Auris | Hydration, Worn Lightly</title>
     <meta
       name="description"
-      content="Aera is a hydration wearable disguised as a sculptural earring. Join the waitlist for the minimal, chic future of everyday hydration."
+      content="Auris is a hydration wearable disguised as a sculptural earring. Join the waitlist for the minimal, chic future of everyday hydration."
     />
     <link rel="stylesheet" href="styles.css" />
     <script src="config.js"></script>
@@ -31,7 +31,7 @@
 
     <main class="shell">
       <section class="launch-panel">
-        <p class="eyebrow">Aera</p>
+        <p class="eyebrow">Auris</p>
         <h1>Hydration, worn lightly.</h1>
         <p class="lede">
           A sculptural earring that helps you stay ahead of dehydration through
@@ -41,7 +41,7 @@
         <form
           class="signup-form"
           id="signup-form"
-          aria-label="Join the Aera waitlist"
+          aria-label="Join the Auris waitlist"
           novalidate
         >
           <label class="sr-only" for="email">Email address</label>
@@ -64,7 +64,7 @@
       </section>
     </main>
 
-    <aside class="product-visual" aria-label="Aera hydration earring display">
+    <aside class="product-visual" aria-label="Auris hydration earring display">
       <div class="product-visual__halo product-visual__halo--warm"></div>
       <div class="product-visual__halo product-visual__halo--cool"></div>
       <img
@@ -74,7 +74,7 @@
     </aside>
 
     <footer class="site-footer">
-      <a href="mailto:hello@aera.wear?subject=Aera%20waitlist">hello@aera.wear</a>
+      <a href="mailto:td443@cornell.edu?subject=Auris%20waitlist">td443@cornell.edu</a>
     </footer>
 
     <script>
@@ -111,7 +111,7 @@
             },
             body: JSON.stringify({
               email,
-              source: "aera-landing-page",
+              source: "auris-landing-page",
               submittedAt: new Date().toISOString()
             })
           });
@@ -124,7 +124,7 @@
           formStatus.textContent = "You’re on the list. Thank you.";
         } catch (error) {
           formStatus.textContent =
-            "Something went wrong. Please try again in a moment or email hello@aera.wear.";
+            "Something went wrong. Please try again in a moment or email td443@cornell.edu.";
         } finally {
           submitButton.disabled = false;
         }
