@@ -145,6 +145,15 @@ input {
   display: none;
 }
 
+.mobile-video-label {
+  margin: 0 0 0.85rem;
+  color: rgba(255, 255, 255, 0.72);
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
+
 .mobile-video {
   display: block;
   width: 100%;
@@ -304,16 +313,13 @@ h1 {
     display: block;
     min-height: auto;
     padding: 4rem 1.5rem 1.5rem;
-  }
-
-  .background-video {
-    display: none;
-  }
-
-  .background::after {
     background:
-      linear-gradient(180deg, rgba(7, 7, 7, 0.86) 0%, rgba(7, 7, 7, 0.78) 56%, rgba(7, 7, 7, 0.9) 100%),
-      radial-gradient(circle at 50% 8%, rgba(236, 203, 158, 0.08), transparent 24%);
+      radial-gradient(circle at 20% 0%, rgba(236, 203, 158, 0.12), transparent 24%),
+      linear-gradient(180deg, #0a0a0a 0%, #070707 100%);
+  }
+
+  .background {
+    display: none;
   }
 
   .shell {
@@ -333,10 +339,11 @@ h1 {
     z-index: 2;
     width: 100%;
     margin-top: 0.5rem;
-    padding-bottom: 1rem;
+    padding: 0 0 1rem;
   }
 
   .mobile-video {
+    min-height: 26rem;
     aspect-ratio: 9 / 16;
     object-fit: cover;
   }
