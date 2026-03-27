@@ -94,19 +94,30 @@
         submitButton.disabled = true;
         formStatus.textContent = "Submitting...";
 
+        const payload = JSON.stringify({
+          email,
+          source: "auris-landing-page",
+          submittedAt: new Date().toISOString()
+        });
+
         try {
-          await fetch(WAITLIST_ENDPOINT, {
-            method: "POST",
-            mode: "no-cors",
-            headers: {
-              "Content-Type": "text/plain;charset=utf-8"
-            },
-            body: JSON.stringify({
-              email,
-              source: "auris-landing-page",
-              submittedAt: new Date().toISOString()
-            })
-          });
+          const sentWithBeacon =
+            typeof navigator.sendBeacon === "function" &&
+            navigator.sendBeacon(
+              WAITLIST_ENDPOINT,
+              new Blob([payload], { type: "text/plain;charset=utf-8" })
+            );
+
+          if (!sentWithBeacon) {
+            await fetch(WAITLIST_ENDPOINT, {
+              method: "POST",
+              mode: "no-cors",
+              headers: {
+                "Content-Type": "text/plain;charset=utf-8"
+              },
+              body: payload
+            });
+          }
 
           form.reset();
           formStatus.textContent = "You’re on the list. Thank you.";
