@@ -95,10 +95,11 @@
         formStatus.textContent = "Submitting...";
 
         try {
-          const response = await fetch(WAITLIST_ENDPOINT, {
+          await fetch(WAITLIST_ENDPOINT, {
             method: "POST",
+            mode: "no-cors",
             headers: {
-              "Content-Type": "application/json"
+              "Content-Type": "text/plain;charset=utf-8"
             },
             body: JSON.stringify({
               email,
@@ -106,10 +107,6 @@
               submittedAt: new Date().toISOString()
             })
           });
-
-          if (!response.ok) {
-            throw new Error("Request failed");
-          }
 
           form.reset();
           formStatus.textContent = "You’re on the list. Thank you.";
