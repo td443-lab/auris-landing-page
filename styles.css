@@ -141,6 +141,19 @@ input {
   padding-bottom: 2rem;
 }
 
+.mobile-video-section {
+  display: none;
+}
+
+.mobile-video {
+  display: block;
+  width: 100%;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: 1.25rem;
+  background: rgba(0, 0, 0, 0.35);
+  box-shadow: var(--shadow);
+}
+
 .eyebrow {
   margin: 0 0 1rem;
   color: rgba(255, 255, 255, 0.78);
@@ -288,7 +301,8 @@ h1 {
 
 @media (max-width: 736px) {
   body {
-    padding: 5rem 1.5rem 1.5rem;
+    display: block;
+    padding: 4rem 1.5rem 1.5rem;
   }
 
   h1 {
@@ -306,6 +320,37 @@ h1 {
   .signup-form button,
   .signup-form input {
     width: 100%;
+  }
+
+  .background-video {
+    display: none;
+  }
+
+  .background::after {
+    background:
+      linear-gradient(180deg, rgba(7, 7, 7, 0.86) 0%, rgba(7, 7, 7, 0.78) 56%, rgba(7, 7, 7, 0.9) 100%),
+      radial-gradient(circle at 50% 8%, rgba(236, 203, 158, 0.08), transparent 24%);
+  }
+
+  .shell {
+    display: grid;
+    gap: 1.75rem;
+  }
+
+  .launch-panel {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .mobile-video-section {
+    display: block;
+    position: relative;
+    z-index: 2;
+    padding-bottom: 1rem;
+  }
+
+  .site-footer {
+    margin-top: 1rem;
   }
 }
 
