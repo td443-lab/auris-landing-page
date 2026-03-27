@@ -1,0 +1,76 @@
+<svg width="1600" height="1100" viewBox="0 0 1600 1100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1600" height="1100" fill="#070707"/>
+  <rect width="1600" height="1100" fill="url(#bgGlow)"/>
+  <rect width="1600" height="1100" fill="url(#bgShade)"/>
+
+  <circle cx="1210" cy="220" r="190" fill="#D7B587" fill-opacity="0.18"/>
+  <circle cx="1170" cy="760" r="170" fill="#DCE9EB" fill-opacity="0.12"/>
+  <circle cx="980" cy="320" r="88" fill="white" fill-opacity="0.06"/>
+
+  <text x="122" y="212" fill="rgba(255,255,255,0.78)" font-family="Avenir Next, Helvetica Neue, Arial, sans-serif" font-size="18" letter-spacing="6">AERA</text>
+
+  <text x="118" y="366" fill="rgba(255,255,255,0.94)" font-family="Baskerville, Times New Roman, serif" font-size="106" letter-spacing="-4">
+    <tspan x="118" dy="0">Hydration,</tspan>
+    <tspan x="118" dy="92">worn lightly.</tspan>
+  </text>
+
+  <text x="122" y="574" fill="rgba(255,255,255,0.68)" font-family="Avenir Next, Helvetica Neue, Arial, sans-serif" font-size="30">
+    <tspan x="122" dy="0">A sculptural earring that helps you stay ahead of</tspan>
+    <tspan x="122" dy="44">dehydration through subtle reminders designed to feel</tspan>
+    <tspan x="122" dy="44">as effortless as the jewelry itself.</tspan>
+  </text>
+
+  <rect x="120" y="666" width="526" height="54" rx="6" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.18)"/>
+  <text x="144" y="701" fill="rgba(255,255,255,0.46)" font-family="Avenir Next, Helvetica Neue, Arial, sans-serif" font-size="22">Email Address</text>
+  <rect x="664" y="666" width="145" height="54" rx="6" fill="rgba(255,255,255,0.94)"/>
+  <text x="699" y="701" fill="#111111" font-family="Avenir Next, Helvetica Neue, Arial, sans-serif" font-size="22">Sign Up</text>
+
+  <text x="122" y="784" fill="rgba(255,255,255,0.46)" font-family="Avenir Next, Helvetica Neue, Arial, sans-serif" font-size="22">
+    Gentle hydration cues. Jewelry-first design. Early access for launch.
+  </text>
+
+  <text x="121" y="970" fill="rgba(255,255,255,0.48)" font-family="Avenir Next, Helvetica Neue, Arial, sans-serif" font-size="22">hello@aera.wear</text>
+
+  <g filter="url(#earringShadow)">
+    <path d="M1120 254C1197.87 254 1261 317.131 1261 395C1261 472.869 1197.87 536 1120 536C1042.13 536 979 472.869 979 395C979 372.003 984.503 350.28 993.918 331.086" stroke="url(#gold)" stroke-width="28" stroke-linecap="round"/>
+    <rect x="1015" y="520" width="210" height="260" rx="105" fill="url(#capsule)"/>
+    <path d="M1120.12 560C1154.63 602.337 1177.14 634.901 1187.69 657.691C1198.23 680.481 1202.6 701.327 1202.6 720.228C1202.6 764.98 1166.32 801.258 1121.57 801.258C1076.82 801.258 1040.54 764.98 1040.54 720.228C1040.54 701.327 1044.9 680.481 1055.45 657.691C1066 634.901 1088.51 602.337 1123.02 560H1120.12Z" fill="url(#water)"/>
+    <path d="M1073 639C1053.91 663.364 1045.87 683.184 1048.88 698.459C1051.89 713.733 1062.02 722.857 1079.29 725.831" stroke="white" stroke-opacity="0.68" stroke-width="12" stroke-linecap="round"/>
+    <ellipse cx="1100" cy="625" rx="74" ry="44" fill="white" fill-opacity="0.28"/>
+  </g>
+
+  <defs>
+    <filter id="earringShadow" x="943" y="222" width="354" height="623" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+      <feOffset dy="24"/>
+      <feGaussianBlur stdDeviation="18"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0.02 0 0 0 0 0.02 0 0 0 0 0.02 0 0 0 0.45 0"/>
+      <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1" result="shape"/>
+    </filter>
+    <radialGradient id="bgGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1240 250) rotate(124.591) scale(593.018 964.856)">
+      <stop stop-color="#2D2418"/>
+      <stop offset="0.42" stop-color="#11100E"/>
+      <stop offset="1" stop-color="#070707"/>
+    </radialGradient>
+    <linearGradient id="bgShade" x1="0" y1="550" x2="1600" y2="550" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#070707"/>
+      <stop offset="0.34" stop-color="#070707" stop-opacity="0.7"/>
+      <stop offset="0.68" stop-color="#070707" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#070707" stop-opacity="0.74"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="1024" y1="271" x2="1254" y2="486" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#D8BA8A"/>
+      <stop offset="1" stop-color="#8F6A3F"/>
+    </linearGradient>
+    <linearGradient id="capsule" x1="1040" y1="530" x2="1196" y2="778" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFCF8"/>
+      <stop offset="1" stop-color="#ECE7DE"/>
+    </linearGradient>
+    <linearGradient id="water" x1="1060" y1="584" x2="1188" y2="792" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#DCF4F8"/>
+      <stop offset="1" stop-color="#A7C9D2"/>
+    </linearGradient>
+  </defs>
+</svg>
